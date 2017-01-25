@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.father {
+  width: 800px;
+  display: table;
+  border: 5px solid #000;
+  margin-left: 500px;
+  margin-top: 50px;
+}
+
+.child-first {
+  height: 100px;
+  width: 100px;
+  display: inline-table;
+  float: left;
+}
+
+.child-second {
+  height: 100px;
+  width: 100px;
+  display: inline-table;
+  float: left;
+}
+
+.child-first:nth-child(2n+0) {
+  background-color: #000;
+}
+
+.child-second:nth-child(2n+1) {
+  background-color: #000;
+}
+
+.child-first:hover {
+  opacity: 0.5;
+}
+
+.child-second:hover {
+  opacity: 0.5;
+}
