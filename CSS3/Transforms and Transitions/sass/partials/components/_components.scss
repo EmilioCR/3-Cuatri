@@ -1,0 +1,79 @@
+.title {
+    font-family: 'gogoiadeco', serif;
+    font-size: 80px;
+}
+
+.container {
+	width: 1000px;
+	margin-left: 100px;
+}	
+
+.item-container {
+	width: 200px;
+	height: 200px;
+	border: 1px solid #000;
+	box-sizing: border-box;
+	display: inline-block;
+	float: left;
+}
+
+.gradient-color {
+	background: #0300ba; /* Old browsers */
+    background: -webkit-linear-gradient(#0300ba 0%, #ffffff 18%, #ffffff 29%, #ed3d2d 42%, #ed3d2d 54%, #ffffff 68%, #ffffff 80%, #0004ff 100%);
+    background: -o-linear-gradient(#0300ba 0%, #ffffff 18%, #ffffff 29%, #ed3d2d 42%, #ed3d2d 54%, #ffffff 68%, #ffffff 80%, #0004ff 100%);
+    background: linear-gradient(#0300ba 0%, #ffffff 18%, #ffffff 29%, #ed3d2d 42%, #ed3d2d 54%, #ffffff 68%, #ffffff 80%, #0004ff 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0300ba', endColorstr='#0004ff',GradientType=0 ); /* IE6-9 */
+}
+
+.box-transition {
+	width: 200px;
+	height: 200px;
+	color: #000;
+	background-color: #fff;
+	float: right;
+	margin-right: 499px;
+	border: 1px solid #000;
+	font-family: 'gogoiadeco', serif;
+	font-size: 50px;
+
+	&:hover {
+		color: #fff;
+		background-color: #000;
+	}
+}
+
+.box-transition {
+	transition: all, 1s;
+	-ms-transition: all, 1s; /* IE 9 */
+	-webkit-transition: all, 1s; /* Safari */
+	-o-transition: all, 1s; /* Opera */
+	-moz-transition: all, 1s; /* Firefox */
+}
+
+.transform {
+    width: 50px;
+    height: 50px;
+    color: #000;
+    background-color: #000;
+    float: right;
+    border: 1px solid #000;
+    margin-right: 75px;
+    display: inline-block;
+
+    &:hover {
+    	transform: rotate(45deg) translate(-105px, -105px) scale(2,2);
+    	-ms-transform: rotate(45deg) translate(-105px, -105px) scale(2,2); /* IE 9 */
+    	-webkit-transform: rotate(45deg) translate(-105px, -105px) scale(2,2); /* Safari */
+    	-o-transform: rotate(45deg) translate(-105px, -105px) scale(2,2); /* Opera */
+    	-moz-transform: rotate(45deg) translate(-105px, -105px) scale(2,2); /* Firefox */
+    }
+    
+}
+
+.transform {
+	transition: all, 1s;
+	-ms-transition: all, 1s; /* IE 9 */
+	-webkit-transition: all, 1s; /* Safari */
+	-o-transition: all, 1s; /* Opera */
+	-moz-transition: all, 1s; /* Firefox */
+}
