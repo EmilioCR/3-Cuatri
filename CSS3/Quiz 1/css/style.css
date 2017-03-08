@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  width: 100%; }
+
+.wrapper {
+  width: 1400px;
+  margin: 0 auto; }
+
+@font-face {
+  font-family: 'montserratlight';
+  src: url("../fonts/montserrat-light-webfont.woff2") format("woff2"), url("../fonts/montserrat-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'beyond_the_mountainsregular';
+  src: url("../fonts/beyond_the_mountains-webfont.woff2") format("woff2"), url("../fonts/beyond_the_mountains-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'montserratsemibold';
+  src: url("../fonts/montserrat-semibold-webfont.woff2") format("woff2"), url("../fonts/montserrat-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'oleo_script_swash_capsregular';
+  src: url("../fonts/oleoscriptswashcaps-regular-webfont.woff2") format("woff2"), url("../fonts/oleoscriptswashcaps-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'montserratregular';
+  src: url("../fonts/montserrat-regular-webfont.woff2") format("woff2"), url("../fonts/montserrat-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+ul {
+  list-style: none;
+  margin-top: -30px; }
+
+.list-nav {
+  display: inline-block;
+  float: right;
+  margin-right: 30px; }
+
+a {
+  text-decoration: none;
+  color: #fff; }
+
+h3 {
+  font-family: oleo_script_swash_capsregular, serif;
+  color: #fff;
+  font-size: 35px; }
+
+header {
+  height: 105px;
+  background-color: #000; }
+
+.header-wrapper {
+  padding: 30px 0;
+  font-family: montserratlight, serif; }
+
+.first-section {
+  background: url("../img/first-landscape.jpg") no-repeat;
+  height: 600px;
+  width: 1400px;
+  margin: 0 auto;
+  text-align: center; }
+
+.first-title {
+  font-family: beyond_the_mountainsregular, serif;
+  color: #fff;
+  font-size: 100px;
+  padding-top: 200px; }
+
+.articles {
+  text-align: center;
+  height: 500px; }
+
+.article-title {
+  font-family: montserratsemibold, serif;
+  color: #000;
+  font-size: 30px;
+  margin: 65px 0 50px 0; }
+
+.post-articles {
+  font-family: montserratsemibold, serif;
+  width: 400px;
+  height: 265px;
+  display: inline-block;
+  margin-left: 40px;
+  position: relative; }
+
+.first-article {
+  background: url("../img/first-article.jpg") no-repeat; }
+
+.second-article {
+  background: url("../img/second-article.jpg") no-repeat; }
+
+.third-article {
+  background: url("../img/third-article.jpg") no-repeat; }
+
+.titles-articles {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 0; }
+  .titles-articles:hover {
+    height: 100px; }
+
+.titles-articles {
+  transition: all, 2s; }
+
+.about-us {
+  background: url("../img/second-landscape.jpg") no-repeat;
+  height: 700px;
+  width: 1400px;
+  margin: 0 auto; }
+
+.about-title {
+  color: #fff;
+  font-family: montserratsemibold, serif;
+  font-size: 40px;
+  margin-bottom: 40px; }
+
+.about-p {
+  color: #fff;
+  font-family: 'montserratregular', serif; }
+
+.about-section {
+  width: 570px;
+  display: inline-block; }
+
+.about-logo {
+  padding-top: 400px;
+  display: inline-block;
+  margin: 0 158px; }
+
+footer {
+  height: 300px;
+  background-color: #000;
+  width: 100%;
+  font-family: montserratlight, serif; }
+
+.sub-footer {
+  text-align: center; }
+
+.list-footer {
+  display: inline-block;
+  margin: 55px 45px 42px 0; }
+
+.p-footer {
+  margin-top: 45px;
+  color: #fff;
+  font-family: montserratlight, serif; }
+
+/*# sourceMappingURL=style.css.map */

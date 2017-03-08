@@ -1,0 +1,81 @@
+body {
+	width: 100%;
+}
+
+.wrapper {
+	width: 1400px;
+	margin: 0 auto;
+}
+
+// Nav Fonts
+@font-face {
+    font-family: 'montserratlight';
+    src: url('../fonts/montserrat-light-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+// ----------------------------------------------------------------------------
+
+// First Post Font
+@font-face {
+    font-family: 'beyond_the_mountainsregular';
+    src: url('../fonts/beyond_the_mountains-webfont.woff2') format('woff2'),
+         url('../fonts/beyond_the_mountains-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+// ----------------------------------------------------------------------------
+
+// Articles Fonts
+@font-face {
+    font-family: 'montserratsemibold';
+    src: url('../fonts/montserrat-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+// Titles Articles
+@font-face {
+    font-family: 'oleo_script_swash_capsregular';
+    src: url('../fonts/oleoscriptswashcaps-regular-webfont.woff2') format('woff2'),
+         url('../fonts/oleoscriptswashcaps-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+// ----------------------------------------------------------------------------
+
+// About P
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+// ----------------------------------------------------------------------------
+
+ul {
+    list-style: none;
+    margin-top: -30px;
+}
+
+.list-nav {
+	display: inline-block;
+	float: right;
+	margin-right: 30px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+h3 {
+	font-family: oleo_script_swash_capsregular, serif;
+	color: #fff;
+	font-size: 35px;
+}
