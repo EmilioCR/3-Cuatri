@@ -1,0 +1,72 @@
+body {
+	width: 1400px;
+    margin: 0 auto;
+}
+
+.wrapper {
+	width: 1320px;
+}
+
+//-------------------------Header Section-------------------------------------------
+
+header {
+    background: url('../img/chef.jpg');
+    height: 840px;
+}
+
+nav {
+    font-family: 'montserratlight';
+    padding: 35px;
+    border-bottom: 1px solid #d0d0d0;
+    font-size: 14px;
+}
+
+ul {
+    list-style: none;
+    
+    li {
+        display: inline-block;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+//-------------------------About Section-------------------------------------------
+
+.about {
+    height: 860px;
+    position: relative;
+}
+
+//-------------------------Menu Section-------------------------------------------
+.menu {
+    background: url('../img/background-menu.jpg');
+    padding: 100px 0 50px;
+    font-family: 'montserratlight';
+    text-align: center;
+}
+
+//-------------------------Eventos Section-------------------------------------------
+
+.event {
+    height: 828px;
+    position: relative;
+}
+
+//-------------------------Ubicacion Section-------------------------------------------
+
+.ubicacion {
+    font-family: 'montserratlight';
+    position: relative;
+    height: 478px;
+}
+
+//-------------------------Footer-------------------------------------------
+
+footer {
+    background-color: #000;
+    font-family: 'montserratlight';
+    color: #fff;
+}

@@ -1,0 +1,197 @@
+//-------------------------Header Section-------------------------------------------
+
+.nav-header {
+	position: relative;
+
+	ul {
+		display: inline-block;
+	}
+
+	a {
+		color: #d0d0d0;
+	}
+}
+
+.idioms {
+	position: absolute;
+	right: 40px;
+
+}
+
+.nav-menu {
+	position: absolute;
+	right: 255px;
+
+	li {
+		padding-right: 86px;
+	}
+}
+
+//-------------------------About Section-------------------------------------------
+
+.about-left {
+	background-color: #000;
+	color: #d0d0d0;
+	font-family: 'montserratlight';
+	font-size: 14px;
+	width: 443px;
+	padding: 332px 100px 142px;
+	text-align: center;
+	display: inline-block;
+
+	h1 {
+		font-size: 38px;
+		padding-bottom: 53px;
+	}
+
+	p {
+		padding-bottom: 75px;
+	}
+}
+
+.about-right {
+	position: absolute;
+	display: inline-block;
+	background: url('../img/about-right.jpg');
+	width: 55%;
+	height: 100%;
+	right: 0;
+
+	&:hover {
+		width: 60%;
+	}
+}
+
+.about-right {
+	transition: all 0.5s;
+}
+
+//-------------------------Menu Section-------------------------------------------
+
+.menu {
+	h2 {
+		padding-bottom: 30px;
+	}
+
+	p {
+		padding-bottom: 30px;
+	}
+}
+
+//-------------------------Eventos Section-------------------------------------------
+.event-left {
+    background: url(../img/background-event.jpg);
+    color: #d0d0d0;
+    font-family: 'montserratlight';
+    font-size: 14px;
+    width: 443px;
+    padding: 332px 100px 165px;
+    text-align: center;
+    display: inline-block;
+
+	h1 {
+		font-size: 38px;
+		padding-bottom: 53px;
+	}
+
+	p {
+		padding-bottom: 35px;
+	}
+
+	li {
+		display: block;
+	}
+	
+	ul {
+		padding-bottom: 30px;
+	}
+}
+
+.reservar {
+	color: #d0d0d0;
+	text-decoration: none;
+	padding: 10px 50px;
+	border: 1px solid #d0d0d0;
+
+	&:hover {
+		color: #6b3b25;
+		background-color: #d0d0d0;
+	}
+}
+
+.event-right {
+	position: absolute;
+	display: inline-block;
+	background: url('../img/cookies.jpg');
+	width: 55%;
+	height: 100%;
+	right: 0;
+
+	&:hover {
+		width: 60%;
+	}
+}
+
+.event-right {
+	transition: all 0.5s;
+}
+
+//-------------------------Ubicacion Section-------------------------------------------
+.ubicacion {
+
+	a {
+		font-size: 29px;
+		position: absolute;
+		z-index: 1;
+		top: 89px;
+		left: 557px;
+		text-decoration: none;
+		color: #d0d0d0;
+		padding: 10px 50px;
+		background-color: #000;
+
+		&:hover {
+			color: #000;
+			background-color: #d0d0d0;
+		}
+	}
+
+}
+
+.post-left {
+    background: url(../img/figure.jpg);
+    padding: 239px 350px;
+    display: inline-block;
+
+}
+
+.post-right {
+    background: url(../img/flower.jpg);
+    padding: 239px 350px;
+    display: inline-block;
+    position: absolute;
+}
+
+//-------------------------Footer-------------------------------------------
+
+.left-footer {
+	display: inline-block;
+	width: 50%;	
+	text-align: center;
+	padding: 50px 0;
+}
+
+.right-footer {
+	display: inline-block;
+	width: 50%;
+	float: right;
+	text-align: center;
+	padding: 50px 0;
+}
+
+
+
+
+
+
+
