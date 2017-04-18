@@ -1,0 +1,309 @@
+//----------------Header---------------------------------
+
+.social-media {
+    position: absolute;
+    right: 39px;
+    bottom: 140px;
+}
+
+.logo {
+	text-decoration: none;
+	color: #6b3b25;
+	font-family: 'franchiseregular';
+	font-size: 70px;
+	display: inline-block;
+}
+
+.sprite {
+	background-image: url('../img/social-media.png');
+	background-repeat: no-repeat;
+	display: block;
+
+	width: 32px;
+	height: 32px;
+	margin-left: 10px;
+}
+
+.fastfm-logo {
+	background-position: -128px;
+
+	&:hover{
+		background-position: 0;
+	}
+}
+
+.tumblr-logo {
+	background-position: -192px;
+
+	&:hover{
+		background-position: -64px;
+	}
+}
+
+.twitter-logo {
+	background-position: -224px;
+
+	&:hover{
+		background-position: -97px;
+	}
+}
+
+.dribbble-logo {
+	background-position: -160px;
+
+	&:hover{
+		background-position: -32px;
+	}
+}
+
+//--------------------Nav--------------------
+
+.arrow-right-up {
+    width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-bottom: 44px solid transparent;
+    position: absolute;
+    right: -38px;
+    border-left: 37px solid #e09402;
+    top: 0;
+}
+
+.arrow-right-down {
+    width: 0;
+    height: 0;
+    border-top: 43px solid transparent;
+    border-bottom: 0px solid transparent;
+    position: absolute;
+    bottom: 0;
+    right: -38px;
+    border-left: 37px solid #e09402;
+}
+
+.arrow-left-up {
+	width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-bottom: 44px solid transparent;
+    position: absolute;
+    left: -38px;
+    border-right: 37px solid #e09402;
+    top: 0;
+}
+
+.arrow-left-down {
+    width: 0;
+    height: 0;
+    border-top: 44px solid transparent;
+    border-bottom: 0px solid transparent;
+    position: absolute;
+    left: -38px;
+    border-right: 37px solid #e09402;
+    bottom: 0;
+}
+
+//--------------------Sub-Nav--------------------
+
+.sub-nav-hide {
+	display: none;
+}
+
+.sub-nav-show {
+	display: block;
+	background-color: #62493d;
+	width: 277px;
+
+	li {
+		display: block;
+		font-size: 16px;
+		border-bottom: 1px solid #806d63;
+	}
+}
+
+// ------------------Slider------------------------------
+
+#s1, #s2, #s3, #s4 {
+  	padding: 6px;
+  	background: #000000;
+  	position: absolute;
+  	left: 50%;
+  	bottom: 25px;
+  	border-radius: 20px;
+  	opacity: 0.3;
+  	cursor: pointer;
+  	z-index: 999;
+}
+
+#s1 {
+	margin-left: -36px;
+}
+
+#s2 {
+  	margin-left: -12px;
+}
+
+#s3 {
+  	margin-left: 12px;
+}
+
+#s4 {
+  	margin-left: 36px;
+}
+
+#s1:hover, #s2:hover, #s3:hover, #s4:hover {
+  	opacity: .50;
+}
+
+.controls {
+  	display: none;
+}
+
+#option1:checked ~ .overflow {
+  	margin-top: 0px;
+}
+
+#option2:checked ~ .overflow {
+  	margin-top: -420px;
+}
+
+#option3:checked ~ .overflow {
+  	margin-top: -840px;
+}
+
+#option4:checked ~ .overflow {
+  	margin-top: -1260px;
+}
+
+#option1:checked + #s1, #option2:checked + #s2, #option3:checked + #s3, #option4:checked + #s4 {
+  	opacity: 1;
+}
+
+.first-slide {
+	background-image: url('../img/slider1.jpg')
+}
+
+.second-slide {
+	background-image: url('../img/slider2.jpg')
+}
+
+.third-slide {
+	background-image: url('../img/slider3.jpg')
+}
+
+.fourth-slide {
+	background-image: url('../img/slider4.jpg')
+}
+
+.overflow {
+	transition: 1s;
+}
+
+// ------------ Posts -------------------------------------
+
+.post {
+	width: 297px;
+	height: 384px;
+	display: inline-block;
+	box-sizing: border-box;
+	margin-top: 35px;
+	box-shadow: 0px 5px 13px #888888;
+}
+
+.first-post {
+	margin-right: 20px;
+}
+
+.second-post {
+	margin-right: 20px;
+}
+
+.posters {
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.recent-posts {
+	width: 300px;
+	border-top: 5px solid #6b3b25;
+	display: inline-block;
+}
+
+.recent-titles {
+	border-bottom: 1px solid #6b3b25;
+	padding: 20px 0;
+
+	h2 {
+		font-family: 'latoblack';
+		font-size: 18px;
+		display: inline-block;
+	}
+
+	a {
+		font-family: 'arvoregular';
+		font-size: 14px;
+		float: right;
+		text-decoration: none;
+		color: #6b3b25;
+	}
+
+}
+
+.video-section {
+	border-top: 5px solid #6b3b25;
+	width: 620px;
+	display: inline-block;
+	float: right;
+
+	h2 {
+		font-family: 'latoblack';
+		font-size: 18px;
+		padding: 20px 0;
+		border-bottom: 1px solid #6b3b25;
+		margin-bottom: 20px; 
+	}
+
+	h5 {
+		font-size: 20px;
+		font-family: 'latoblack';
+		padding: 24px 0;
+	}
+
+	p {
+		font-family: 'arvoregular';
+	}
+}
+
+// ------------ Footer -------------------------------------
+
+.footer-posts {
+	display: inline-block;
+	color: #e7d7ba;
+	width: 310px;
+	text-align: left;
+	padding: 43px 0 67px;
+
+	h2 {
+		font-size: 18px;
+		font-family: 'latoblack';
+		color: #e09402;
+	}
+	
+	p {
+		font-family: 'arvoregular';
+		font-size: 14px;
+	}
+
+}
+
+.out-footer {
+	background-image: url('../img/circle-pattern.jpg');
+	text-align: center;
+
+	h6 {
+		color: #e09402;
+		font-family: 'arvoregular';
+		font-size: 14px;
+		padding: 30px 0 30px;
+	}
+
+}
